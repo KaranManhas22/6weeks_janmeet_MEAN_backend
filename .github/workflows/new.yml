@@ -20,7 +20,7 @@ jobs:
           username: ubuntu
           key: ${{ secrets.PRIVATE_KEY }}
           script: |
-            cd /home/ubuntu/projectback 
+            cd /home/ubuntu/6weeks_janmeet_MEAN_backend
             git pull origin main 
             npm i  
             sudo npm i pm2 -g 
